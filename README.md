@@ -26,7 +26,7 @@ Also, update the values connection.js --> ref: Server.1
 
     - GET
 
-- Query (Server)
+- Query 1 (Server)
 
   1. Run query to find the movies release in "USA", with a "tomatoes.viewer.rating" greater than or equal to "3", calculate a new field called "num_favs" that represets how many favorites appear in the "cast" field of the movie (as in you need to find records with given favorites actors/actress in cast field along with that you need to find number of characters(count) in the cast field )
 
@@ -40,6 +40,13 @@ Also, update the values connection.js --> ref: Server.1
 
   6. Query operators Link (https://docs.mongodb.com/manual/reference/operator/aggregation/)
 
+- Query 2 (Server)
+
+  1. Using the same principles, make another API /top-10-actors to get the list of the top 10 actors who has appeared in the maximum number of movies in the database given.
+  
+  
+  
+  
 - Client (optional - a simple HTML page will also work for backend condidates)
 
   1. Create new React project (use React and React-dom library) no need to maintain any state management can use create-react-app
