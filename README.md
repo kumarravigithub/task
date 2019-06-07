@@ -5,13 +5,14 @@ Task repo for interview in assessing MERN stack
 ## Dev Environment Setup (node version: v8.10.0 and above)
 
 ```sh
-git clone https://github.com/mani-gk/task.git
+git clone https://github.com/techsavyravi/task.git
 cd task
-npm install (update values connection.js) ref: Server.1
+npm install
 npm run dev
 ```
+Also, update the values connection.js --> ref: Server.1
 
-## database credentials and connection string will be forwarded through email
+## database connection string will be forwarded through email
 
 ## Requirement
 
@@ -39,7 +40,7 @@ npm run dev
 
   6. Query operators Link (https://docs.mongodb.com/manual/reference/operator/aggregation/)
 
-- Client
+- Client (optional - a simple HTML page will also work for backend condidates)
 
   1. Create new React project (use React and React-dom library) no need to maintain any state management can use create-react-app
 
