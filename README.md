@@ -1,6 +1,6 @@
 # task
 
-Task repo for interview in assessing MERN stack
+Task repo for interview in assessing backend and frontend candidates.
 
 ## Dev Environment Setup (node version: v8.10.0 and above)
 
